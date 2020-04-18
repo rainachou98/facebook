@@ -1,0 +1,380 @@
+.block_page
+{
+  width: 100%;  
+}
+body{
+    background: #edf0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.moc
+{
+    margin-left:-10px;
+   
+}
+
+header
+{
+    background-color:  rgb(49, 77, 128);
+    color: white;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+
+article
+{
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+
+aside
+{
+    margin-left: -10rem
+}
+
+.tab
+{
+    margin-right:5px;
+}
+
+.moc
+{
+    font-size: 60px;
+}
+
+.fan
+{
+display: flex;
+
+}
+
+
+
+.trans
+{
+    color: rgb(128, 140, 170);;
+}
+
+.con
+{
+    color: rgb(105, 106, 110);;
+}
+
+p
+{
+    font-size: 18px;
+}
+.color
+{
+    color: rgb(54, 86, 175)
+}
+
+.grand
+{
+    padding: px;
+}
+
+.go
+{
+    display: flex;
+    text-align: end;
+    border-radius: 10px;
+    
+}
+
+.bout
+{
+    border-radius: 7px;
+    width: 250px;
+    height: 50px;
+    background-color:rgb(64, 151, 79) ;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 35px;
+   
+}
+.gout
+{
+    border-radius: 50%;
+    background-color:rgb(97, 96, 96) ;
+    color: cornsilk;
+}
+.bloc
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.log
+{
+    background-color: rgb(40, 76, 173);
+    border: 1px solid black;
+    font-size: 15px;
+    color: white;
+    box-shadow:1px 0px black ;
+    text-align: justify;
+}
+
+.up
+{
+    border-bottom:1px solid rgb(228, 221, 221) ;
+   
+}
+#mois{
+    height: 25px;
+}
+
+#annee
+{
+    height: 25px;
+}
+
+#jour
+{
+    height: 25px;
+}
+
+h1
+{
+    font-size:50px ;
+}
+
+.son
+{
+    font-size:35px ;
+
+}
+
+.coq
+{
+   display: flex; justify-content: space-around;
+}
+
+.fem
+{
+    font-size:px;
+    width: px;
+}
+#pass
+{
+    padding: 9px;
+    padding-right: 36px;
+    border-radius: 5px;
+}
+#mail
+{
+    padding: 9px;
+    padding-right: 36px;
+    border-radius: 5px;
+}
+#LogIn
+{
+ padding: 9px; 
+  padding-right: 36px;
+  border-radius: 5px;
+}
+#first_name
+{
+   padding: 11px; 
+   size:40px;
+   border-radius: 5px;
+}
+#last_name
+{
+    padding: 11px;
+    size:40px;
+    border-radius: 5px;
+}
+#passe
+{
+    width:43%;
+    padding: 11px;
+    padding-right: 73px;
+    border-radius: 5px;
+}
+#mois
+{
+    font-size:23px;
+     height: 33px;
+     
+}
+#annee
+{
+    font-size:23px;
+     height: 33px;
+}
+#jour
+{
+    font-size:23px;
+     height: 33px;
+}
+
+@media screen and (max-width:1275px)
+{
+    .coq
+    {
+       display: flex;
+       flex-direction: column;
+       margin-left: 35px;
+    }
+    .bloc 
+    {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    aside
+    {
+        margin-left: 1rem;
+    }
+    article
+    {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:950px)
+{
+   .moc
+   {
+    font-size: 30px;
+   }
+.tab
+{
+  padding: -10px;
+
+}
+#pass
+{
+    padding: 3px;
+    padding-right: 20px;
+}
+#mail
+{
+    padding: 3px;
+    padding-right: 20px;
+}
+
+#LogIn
+{
+ padding: 3px; 
+  padding-right: 20px;
+}
+.son
+  {
+      font-size:25px ;
+  }
+h1
+ {
+    font-size:25px ;
+ }
+ #first_name
+{
+   padding: 4px; 
+}
+#last_name
+{
+    padding: 4px;
+}
+#passe
+{
+    width:26%;
+    padding: 4px;
+    padding-right: 20px;
+}
+#mois
+{
+    font-size:15px;
+     height: 20px;
+}
+#annee
+{
+    font-size:15px;
+     height: 20px;
+}
+#jour
+{
+    font-size:15px;
+     height: 20px;
+}
+
+}
+@media screen and (max-width:632px)
+{
+    p
+    {
+        font-size: 11px;
+    }
+    #first_name
+    {
+       padding: 0px; 
+       size: 25px;
+    }
+    #last_name
+    {
+        padding: 0px;
+        size: 25px;
+    }
+    #pass
+    {
+        padding: 0px;
+        padding-right: 4px;
+    }
+    #mail
+    {
+        padding: 0px; 
+      padding-right: 4px;
+    }
+    #LogIn
+   {
+     padding: 0px; 
+     padding-right: 4px;
+  }
+  .bout
+  {
+      border-radius: 7px;
+      width: 180px;
+      height: 35px;
+      background-color:rgb(64, 151, 79) ;
+      color: white;
+      font-size: 13px;
+      margin-bottom: 35px;
+     
+  }
+
+}
+
+@media screen and (max-width:500px)
+{
+    #pass
+    {
+        padding: 0px;
+        padding-right: 0px;
+    }
+    #mail
+    {
+        padding: 0px; 
+      padding-right:0px;
+    }
+    #LogIn
+   {
+     padding: 0px; 
+     padding-right: 0px;
+  }
+
+
+
+
+}
